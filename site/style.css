@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Times New Roman", Times, sans-serif;
   color: black;
@@ -42,4 +46,14 @@ body ul a:active {
 
 body > ul > li:nth-child(4) {
   font-size: large;
+}
+
+#welcome {
+  background-color: #daff00;
+  width: 710px;
+  color: black;
+  text-align: center;
+  padding: 40px 230px 40px 230px;
+  border: 15px solid black;
+  margin: 10px;
 }
