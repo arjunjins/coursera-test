@@ -1,7 +1,27 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  border: 0;
 }
 
+h1 {
+  text-align: center;
+}
+.row {
+  width: 100%;
+}
+
+p {
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+  border: 1px solid black;
+  width: 30%;
+  position: relative;
+  left: 80px;
+}
 @media (min-width: 992px) {
   .col-lg-1,
   .col-lg-2,
@@ -16,6 +36,9 @@
   .col-lg-11,
   .col-lg-12 {
     float: left;
+    border: 1px solid black;
+    color: white;
+    background-color: #7e58a7;
   }
 
   .col-lg-1 {
@@ -81,6 +104,7 @@
   .col-md-11,
   .col-md-12 {
     float: left;
+    border: 1px solid black;
   }
 
   .col-md-1 {
@@ -146,6 +170,7 @@
   .col-sm-11,
   .col-sm-12 {
     float: left;
+    border: 1px solid black;
   }
 
   .col-sm-1 {
