@@ -1,11 +1,14 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  border: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {
   text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 .row {
   width: 100%;
@@ -13,14 +16,21 @@ h1 {
 
 p {
   padding: 10px;
+  padding-top: 45px;
 }
 
 h3 {
   text-align: center;
   border: 1px solid black;
   width: 30%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.item {
   position: relative;
-  left: 80px;
+  top: 0;
 }
 @media (min-width: 992px) {
   .col-lg-1,
@@ -39,6 +49,7 @@ h3 {
     border: 1px solid black;
     color: white;
     background-color: #7e58a7;
+    position: relative;
   }
 
   .col-lg-1 {
@@ -105,6 +116,9 @@ h3 {
   .col-md-12 {
     float: left;
     border: 1px solid black;
+    color: white;
+    background-color: #7e58a7;
+    position: relative;
   }
 
   .col-md-1 {
@@ -171,6 +185,9 @@ h3 {
   .col-sm-12 {
     float: left;
     border: 1px solid black;
+    color: white;
+    background-color: #7e58a7;
+    position: relative;
   }
 
   .col-sm-1 {
