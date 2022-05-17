@@ -22,7 +22,7 @@
   position: relative;
   border: 1px solid black;
   margin: 10px;
-  background-color: #7e58a7;
+  background-color: #575556;
 }
 
 .item-title {
@@ -39,11 +39,11 @@
 }
 
 #title-two {
-  background-color: #574195;
+  background-color: #c13e4a;
 }
 
 #title-three {
-  background-color: #c27628;
+  background-color: #afaf59;
 }
 
 @media (min-width: 992px) {
