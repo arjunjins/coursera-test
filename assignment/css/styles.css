@@ -5,33 +5,47 @@
   font-family: "Times New Roman", Times, serif;
 }
 
-h1 {
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-.row {
-  width: 100%;
+.container {
+  position: relative;
+  top: 50px;
+  margin: 15px;
 }
 
-p {
-  padding: 10px;
-  padding-top: 45px;
-}
-
-h3 {
+#my-title {
   text-align: center;
-  border: 1px solid black;
-  width: 30%;
-  position: absolute;
-  top: 0;
-  right: 0;
+  margin-bottom: 35px;
 }
 
 .item {
+  padding: 20px;
+  padding-top: 40px;
   position: relative;
-  top: 0;
+  border: 1px solid black;
+  margin: 10px;
+  background-color: #7e58a7;
 }
+
+.item-title {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+  width: 25%;
+  text-align: center;
+}
+
+#title-one {
+  background-color: #93505b;
+}
+
+#title-two {
+  background-color: #574195;
+}
+
+#title-three {
+  background-color: #c27628;
+}
+
 @media (min-width: 992px) {
   .col-lg-1,
   .col-lg-2,
@@ -46,10 +60,7 @@ h3 {
   .col-lg-11,
   .col-lg-12 {
     float: left;
-    border: 1px solid black;
     color: white;
-    background-color: #7e58a7;
-    position: relative;
   }
 
   .col-lg-1 {
@@ -115,10 +126,7 @@ h3 {
   .col-md-11,
   .col-md-12 {
     float: left;
-    border: 1px solid black;
     color: white;
-    background-color: #7e58a7;
-    position: relative;
   }
 
   .col-md-1 {
@@ -184,10 +192,7 @@ h3 {
   .col-sm-11,
   .col-sm-12 {
     float: left;
-    border: 1px solid black;
     color: white;
-    background-color: #7e58a7;
-    position: relative;
   }
 
   .col-sm-1 {
